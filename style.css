@@ -1,0 +1,65 @@
+/* Offline fonts */
+
+@font-face {
+  font-family: FiraSans;
+  src:
+  url('./fonts/Fira-4.202/woff2/FiraSans-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: FiraSansBold;
+  src:
+  url('./fonts/Fira-4.202/woff2/FiraSans-Bold.woff2') format('woff2');
+}
+
+/* Formatting */
+
+body {
+  background-color: #FFFFFF;
+  font-family: FiraSans;
+  font-size: 30px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: FiraSansBold;
+}
+
+img {
+  object-fit: cover;
+}
+
+img.no-crop {
+  object-fit: none;
+}
+
+pre.highlight.code {
+  display: inline-block;
+  background-color: #FFF8D8;
+  padding: 1em;
+  border-radius: 0.5em;
+  font-size: 20px;
+  text-align: left;
+}
+
+ul, li {
+  margin-left: 0.5em;
+  text-align: left;
+  line-height: 200%;
+}
+
+th, td {
+  padding: 15px;
+}
+
+tr:nth-child(even) {
+  background-color: #F2F2F2;
+}
+
+.step:not(.active) {
+  opacity: 0;
+}
+
+.left-align {
+  text-align: left;
+}
