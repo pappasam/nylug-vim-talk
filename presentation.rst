@@ -11,25 +11,123 @@
 :data-x: r2000
 :data-y: r0
 
-Title
-=====
+Neovim: the Kernel of text editing
+==================================
 
-My Organization
-
-Speaker: John Doe
+Speaker: Samuel Roeca
 
 ----
 
 Overview
 ========
 
-1. First important point
-2. Definitely something we'll cover
-3. The grand finale!
+Throughline: Neovim will both grow on you and with you. You need to approach it thoughtfully and treat it with respect.
+
+1. Past: Vi -> Vim -> NeoVim
+2. Present: you can code your way!
+3. Future: the Kernel of text editing
 
 .. note::
 
-    Make sure you discuss that thing you wanted to mention.
+    In this talk, I cover the past, present, and future of NeoVim
+
+    * Past: evolution, from now-ancient hardware to modern, remote servers
+    * Present: handle editing needs for anyone willing to put in the effort
+    * Future: power text editing everywhere, even for those who don't know what Neovim actually is
+
+----
+
+Past: Vi -> Vim -> NeoVim
+=========================
+
+----
+
+VI
+==
+
+* Discuss VI, and the story behind it
+
+----
+
+Vim
+===
+
+* Give brief timeline of Vim
+
+----
+
+Vim -> Neovim
+=============
+
+* Discuss drama surrounding the fork
+* Caveat that, from now on, I will refer exculsively to Neovim
+
+----
+
+Present: you can code your way!
+===============================
+
+----
+
+* Vim does some things great, but it's up to you to choose good tools to do other stuff
+
+----
+
+Choose an operating system
+==========================
+
+* I'm on a POSIX-ish system (Ubuntu 18.04)
+
+----
+
+Choose a terminal emulator
+==========================
+
+* What is a terminal emulator?
+* Discuss how Neovim is run from, and in, a terminal emulator
+* Considerations for terminal emulator with Neovim in mind
+    * Adherence to standards
+    * Shell compatibility
+    * Font compatibility (emojis, etc)
+    * Speed
+* I recommend Alacrity
+
+----
+
+Choose a shell
+==============
+
+* What is a shell?
+* Different shells: Bash, Zsh, Fish, etc
+* Considerations for shells with Neovim in mind
+    * POSIX
+    * Terminal features
+* I recommend Zsh: has some features Bash cannot have withot sacrificing
+
+----
+
+Choose a terminal window manager
+================================
+
+* Difference between a terminal emulator and a terminal window manager
+* I recommend tmux, since it's inspired by Vim and has similar key bindings
+
+----
+
+Finally, we can edit text!
+==========================
+
+----
+
+Native Functionality
+====================
+
+START HERE!
+
+----
+
+Future: the Kernel of text editing
+==================================
 
 ----
 
