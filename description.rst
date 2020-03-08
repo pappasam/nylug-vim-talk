@@ -1,49 +1,42 @@
 RSVP here:
 ----------
-
 https://www.meetup.com/nylug-meetings/
 
 What:
 -----
-Introduction to HashiCorp Vault
+Neovim: edit text on your own term(s)!
 
 When:
 -----
-Tuesday, February 12, 2019
-6:30 PM (doors open at 6)
+...
 
 Where:
 ------
-Two Sigma Investments
-23rd floor
-101 Avenue of the Americas ยท New York, NY
-
-Armon Dadgar
+Samuel Roeca
 -on-
-Introduction to HashiCorp Vault
+Neovim: edit text on your own term(s)!
 
-Secret data is everywhere, from database credentials, TLS certificates,
-API tokens, to encryption keys. Managing secrets is a difficult challenge,
-but HashiCorp Vault provides an answer. In this talk, we discuss the
-challenges in secret management, provide an overview of Vault, and
-discuss how Vault is operationalized and used in the real world.
+Neovim is a divisive topic among software developers. Negative opinions cite
+horrific defaults, a confusing user interface, a dearth of out-of-the box
+features, lack of discoverability, and a weird genesis that split an existing
+community. In this talk, we address these critiques and make a case for using
+terminal-based Neovim as your primary Linux-based software development
+environment. We cover Neovim's history (Vi -> Vim -> Neovim), how to use it as
+a modern IDE, and how it aims to be more than just a text editor. Join us as we
+discuss a controversial Vim fork with a big dream: to be the Kernel of modern
+text editing!
 
 Links:
 ------
-* Vault: https://www.vaultproject.io
-* Twitter: https://twitter.com/armon
-* LinkedIn: https://www.linkedin.com/in/armon-dadgar/
-
-Afterwards:
------------
-Join us afterwards at the Cupping Room Cafe where we'll continue the discussion
-over drinks and/or food. The Cupping Room Cafe is located at 359 W Broadway,
-two blocks from the venue.
+* Neovim: https://neovim.io/roadmap/
+* Personal Website: https://softwarejourneyman.com/
+* vimrc/init.vim: https://github.com/pappasam/dotfiles/blob/master/dotfiles/.config/nvim/init.vim
 
 Speaker Bio:
 ------------
-Armon (@armon) has a passion for distributed systems and their application
-to real-world problems. He is a founder and CTO of HashiCorp, where he brings
-distributed systems into the world of DevOps tooling. He has worked on Nomad,
-Vault, Terraform, Consul, and Serf at HashiCorp, and maintains the Statsite
-and Bloomd OSS projects.
+Samuel Roeca is an avid Neovim user and loves sharing his preferred software
+development tooling with others. He currently runs the NYC Vim Meetup where he
+collaborates with other Vim/Neovim enthusiasts on a ~monthly basis. He is also
+the Head of Engineering at Kepler Group LLC, where he spends most of his time
+in Neovim and on Ubuntu 18.04. In his spare time he loves playing squash,
+skiing, playing the ukulele, and tweaking his dotfiles.
